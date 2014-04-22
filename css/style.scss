@@ -1,0 +1,46 @@
+/* hax hax hax hax hax errybody! */
+
+body {
+  margin: 0;
+  padding: 1em 0.6em;
+  background: #000;
+  font-size: 1.6em;
+  line-height: 155%;
+  color: #FFF;
+  font-family: "Proxima Nova", Helvetica, sans-serif;
+}
+
+#main {
+  width: 480px;
+}
+
+h1 {
+  display: inline;
+  padding: 0 0.1em;
+  background: #F2543D;
+  font-weight: 800;
+}
+
+p, ul {
+  font-weight: 300;
+}
+
+a {
+  padding: 0.1em 0.2em;
+  color: #84C2FF;
+  text-decoration: none;
+}
+
+a:hover {
+  background: #84C2FF;
+  color: #FFF;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer {
+  display: none;
+}

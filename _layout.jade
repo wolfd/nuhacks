@@ -1,0 +1,26 @@
+doctype
+html(lang="en")
+  head
+    meta(charset='utf-8')
+    title hacks.io
+    meta(name="description" content="A meetup group for hackers and makers at Northeastern University")
+    link(rel="stylesheet" type="text/css" href="css/style.css" media="screen")
+    meta(name="viewport" content="width=device-width")
+
+  body
+    header
+      h1 NU Hacks
+
+    div#main
+      != yield
+      
+      ul
+        li
+          a(href="https://facebook.com/groups/nuhacks" target="_blank") join our facebook group
+        li
+          a(href="http://eepurl.com/EFQcH" target="_blank") sign up for our mailing list
+    footer sudo hi chris
+
+
+    script(type="text/javascript" src="//use.typekit.net/kea5wda.js")
+    script(type="text/javascript") try{Typekit.load();}catch(e){}
